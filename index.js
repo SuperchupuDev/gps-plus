@@ -17,7 +17,7 @@ function onClick() {
       latitude,
       longitude
     } = pos.coords;
-    window.open(`https://www.google.com/maps/@${latitude},${longitude}`);
+    window.open(`https://www.google.com/maps/@${latitude},${longitude},15z`);
   });
 }
 

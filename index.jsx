@@ -9,7 +9,7 @@ const { Fragment, StrictMode } = React;
 function onClick() {
     navigator.geolocation.getCurrentPosition(pos => {
         const { latitude, longitude } = pos.coords
-        window.open(`https://www.google.com/maps/@${latitude},${longitude}`)
+        window.open(`https://www.google.com/maps/@${latitude},${longitude},15z`)
     });
 }
 
